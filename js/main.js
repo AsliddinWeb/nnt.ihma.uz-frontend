@@ -541,7 +541,7 @@ function pieChart() {
   const myChart = new Chart(ctx, {
     type: 'pie',
     data: {
-      labels: [ 'Direct', 'Referal', 'Organic', ],
+      labels: [ 'Kasbi', 'Kitob', "Yakkabog'"],
       datasets: [{
         label: '#',
         data: [40, 28, 32],
